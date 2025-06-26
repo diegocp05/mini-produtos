@@ -1,8 +1,6 @@
 🛍️ Mini App de Produtos — React + React Router
 Um mini projeto React com rotas dinâmicas, filtro de produtos, ordenação A-Z/Z-A, exibição de detalhes, botão de favoritar, e interface moderna com CSS estilizado.
 
-📸 Preview
-
 🚀 Funcionalidades
 ✅ Lista de produtos com:
 
@@ -27,19 +25,14 @@ Botão de voltar
 ✅ Estilo moderno com CSS externo (cards, botões, cores suaves)
 
 🧱 Estrutura
-bash
-Copiar
-Editar
 src/
-├── App.js               # Configuração das rotas
-├── index.js            # Entrada principal + BrowserRouter
-├── ProductList.js      # Lista filtrável de produtos
-├── ProductDetail.js    # Página de detalhe do produto
-└── styles.css          # Estilização geral da aplicação
+├── components/
+│   ├── ProductList.js
+│   └── ProductDetail.js
+├── App.js
+├── index.js
+
 💻 Como Executar
-bash
-Copiar
-Editar
 # 1. Clone o repositório
 git clone https://github.com/seu-usuario/seu-repo.git
 cd seu-repo

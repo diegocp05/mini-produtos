@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+🛍️ Mini App de Produtos — React + React Router
+Um mini projeto React com rotas dinâmicas, filtro de produtos, ordenação A-Z/Z-A, exibição de detalhes, botão de favoritar, e interface moderna com CSS estilizado.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+📸 Preview
 
-## Available Scripts
+🚀 Funcionalidades
+✅ Lista de produtos com:
 
-In the project directory, you can run:
+Filtro por nome em tempo real
 
-### `npm start`
+Ordenação alfabética (A-Z e Z-A)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Contador de produtos exibidos
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+✅ Página de detalhe com:
 
-### `npm test`
+Informações completas do produto
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Preço original e preço com desconto
 
-### `npm run build`
+Botão de favorito 💖
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Botão de voltar
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+✅ Roteamento dinâmico com react-router-dom@6+
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+✅ Estilo moderno com CSS externo (cards, botões, cores suaves)
 
-### `npm run eject`
+🧱 Estrutura
+bash
+Copiar
+Editar
+src/
+├── App.js               # Configuração das rotas
+├── index.js            # Entrada principal + BrowserRouter
+├── ProductList.js      # Lista filtrável de produtos
+├── ProductDetail.js    # Página de detalhe do produto
+└── styles.css          # Estilização geral da aplicação
+💻 Como Executar
+bash
+Copiar
+Editar
+# 1. Clone o repositório
+git clone https://github.com/seu-usuario/seu-repo.git
+cd seu-repo
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# 2. Instale as dependências
+npm install
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# 3. Execute o projeto
+npm start
+Acesse em: http://localhost:3000
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+🛠️ Tecnologias
+React.js
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+React Router DOM v6
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+HTML5 + CSS3
